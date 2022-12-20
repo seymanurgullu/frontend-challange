@@ -1,0 +1,9 @@
+@import "~assets/scss/mixins";
+
+.page {
+  width: calc(100% - 280px);
+
+  @include breakpoint-down(medium) {
+    width: 100%;
+  }
+}
